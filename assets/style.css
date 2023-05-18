@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    overflow-x: hidden;
+}
+.drive{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(120deg,rgb(10, 24, 68) 10%,rgba(245, 240, 240, 0.01)  100%);
+    transition: all 1s;
+    
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    background-color: rgb(165, 240, 236);
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(34, 84, 117);
+    border-radius: 7px;
+}
+.nav-bar{
+    background: url("../assets/img/15185833_5569496.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@font-face {
+    font-family:SD ;
+    src: url(../assets/sd-robotics-font/Sdroboticsdemo-X3led.ttf);
+}
+@font-face {
+    font-family: sans;
+    src: url(../assets/house-signature-sans-font/HouseSignatureSans-Yz0Vj.ttf);
+}
+
+@font-face {
+    font-family: trent;
+    src: url(../assets/trench-font/TrenchThin-aZ1J.ttf);
+}
+
+@font-face {
+    font-family: mom;
+    src: url(../assets/montserrat-font/MontserratBlack-3zOvZ.ttf);
+}
+.brand h1{
+    font-size: 50px;
+    font-family: SD;
+    color: white;
+    font-weight: bolder;
+
+}
+.navs li{
+font-family: trent;
+list-style: none;
+font-weight: bold;
+font-size: 20px;
+cursor: pointer;
+
+}
+.navs li:hover{
+    color: rgb(29, 170, 147);
+    font-size: 22px;
+}
+.head{
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(90deg,rgba(32, 30, 30, 0.6),rgba(61, 56, 56, 0.2)),url("../assets/img/microbiologist-doctor-taking-blood-sample-tube-from-rack-with-machines-analysis-lab-background.jpg");
+}
+.h1{
+    font-family:mom;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+.p1{
+    color: white;
+    font-size: 20px;
+   width: 450px;
+    height: 100px;
+    text-align: start;
+    
+    font-weight: bold;
+    margin-left: 50px;
+}
+.btns{
+   width: 400px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.btns .btn{
+    width: 50%;
+    height: 40px;
+}
+.option{
+    background-image: url("../assets/img/paper-style-white-monochrome-background_52683-66443.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.h-about{
+    font-family: sans;
+    font-size: 60px;
+    
+}
+.abt>i{
+    font-size: 50px;
+    color: aqua;
+
+}
+.span{
+    color: aqua;
+    font-size: 20px;
+    font-weight: bold;
+}
+.abt{
+    transform: scale(0);
+    transition: all .6s;
+}
+.abt>h3{
+    font-family: sans;
+    margin-top: 30px;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.abt>p{
+    font-family: trend;
+}
+.about{
+    padding-bottom: 100px!important;
+    border-bottom: 2px dashed aqua;
+}
+.img{
+    overflow-y: hidden;
+}
+.a{
+    position: absolute;
+    top: 0;
+    left: 5%;
+    width: 90%;
+    height: 100%;
+    background-color: rgba(235, 221, 221, 0.4);
+transition: all 1s;
+display: none;
+}
+
+.b{
+    position: absolute;
+    bottom: 0;
+    left: 5%;
+    width: 90%;
+    height: 30%;
+    background-color: rgba(12, 125, 129, 0.4);
+    justify-content: center;
+    color: white;
+    transition: all .5s;
+    transform: translateY(200%);
+    display: flex;
+align-items: center;
+
+}
+.bc{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 88%;
+    background-color: rgba(197, 233, 235, 0.3);
+    display: flex;
+    color: white;
+    transition: all .5s;
+    transform: translateY(-100%);
+    align-items:center;
+    justify-content: center;
+    font-size: 30px;
+    
+
+}
+.work-2{
+    background-image: url("../assets/img/white.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.work-2 h1{
+    font-family: sans;
+}
+.team h1{
+    font-family: sans;
+}
+.trams-1{
+    overflow-y: hidden;
+}
+.teams img{
+    width: 100%;
+    height: 80%;
+    transition: all 1s;
+    object-fit: none;
+    transform: scale(1);
+    
+}
+.teams-1{
+    transform: scale(0);
+    transition: all 1s;
+    overflow: hidden;
+    
+}
+
+.test{
+    background-image: url("../assets/img/cc.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.test i{
+    font-size: 100px;
+    color: rgb(36, 104, 104);
+}
+.services h1{
+    font-family: sans;
+    margin-top: 100px;
+}
+.services p{
+    color: rgb(150, 139, 139);
+}
+.text h4{
+    font-family: sans;
+    text-align: start;
+}
+.num{
+    background-color: aqua;
+    width: 50px!important;
+    height: 50px!important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.x{
+    border-radius: 5px;
+    border: .1px solid rgb(159, 159, 219);
+}
+.contact{
+    background-color: rgba(22, 192, 169, 0.4);
+}
+.contact-1{
+    font-family: sans;
+}
+.h-work{
+    font-family: sans;
+}
+.bld{
+    transition: all .5s;
+    background-color: white;
+}
